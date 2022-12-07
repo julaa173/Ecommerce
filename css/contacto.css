@@ -1,0 +1,117 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+}
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 64px ;
+    gap: 15px;
+    height: 356px;
+    width: 100%;
+
+    background: var(--bg-contacto);
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    gap: 130px;
+    margin: 20px 0 0 0; 
+}
+
+.links-utiles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.links-utiles a {
+    color: black;
+    font-weight: normal;
+  }
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+    width: 500px;
+}
+
+.contacto-titulo {
+    font-weight: 700;
+    font-size: 16px;
+
+    color: var(--texto-general);
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background: var(--texto-destaque);
+    border-radius: 4px;
+}
+
+#nombre {
+    width: 471px;
+    position: relative;
+    height: 51px;
+    border: transparent;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+    padding: 0.5% 2.7%;
+    color: var(--azul-destaque);
+}
+
+#nombre:hover {
+    border-bottom: solid 2px var(--azul-destaque);
+    transition: linear 1s;
+}
+
+form textarea {
+    width: 100%;
+    font-family: "Relaway", sans-serif;
+    border: transparent;
+    color: var(--azul-destaque);
+    margin-bottom: 20px;
+}
+
+.enviar {
+    background-color: var(--azul-destaque);
+    border: none;
+    color: var(--texto-destaque);
+    height: 51px;
+    width: 180px;
+
+    /* border: none;
+    background: var(--azul-destaque);
+    color: var(--texto-destaque); */
+   
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+
+    background: var(--texto-destaque);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--texto-general);
+}

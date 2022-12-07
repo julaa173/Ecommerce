@@ -1,0 +1,11 @@
+:root {
+    --bg-color: #F5F5F5;
+    --texto-destaque: #FFFFFF;
+    --azul-destaque: #2A7AE4;
+    --bg-contacto: #EAF2FD;
+    --texto-general: #464646;
+    --input-placeholder: #d4d4d4;
+    --input-bg: #efefef;
+    --bg-secundario: #ebebeb;
+    font-family: "Releway", sans-serif;
+}
